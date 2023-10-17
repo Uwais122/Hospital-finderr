@@ -1,0 +1,42 @@
+.navbar a{
+    text-decoration: none;
+    font-size: 12px;
+    float: left;
+    margin: 20px 5px 20px 10px;
+    color: #319197;
+}
+.navbar a:hover{
+    font-size:13px;
+    cursor: pointer;
+}
+.home h4{
+    width: 100%;
+    text-shadow: 14px 13px 10px  black;
+    font-family:'Alumni Sans', sans-serif;
+    font-size:17px;
+    margin: 0px 0px 20px 0px;
+    padding: 5px 0px 5px 0px;
+    text-align:center;
+    color: white;
+    background-color: #318097;
+}
+.container{
+    padding-top: 40px;
+    padding-bottom: 70px;
+    padding-left: 94px;
+    padding-right: 106px;
+    margin-top: 50px;
+    margin-left: 230px;
+    margin-right: 630px;
+    box-shadow: 25px 25px 30px 0px;
+}
+.container{
+    text-align: center;
+    margin: 130px 20px 100px 15px;
+    padding: 30px;
+}
+.container h4{
+    text-align: center;
+    color: #319197;
+    font-size:13px;
+}

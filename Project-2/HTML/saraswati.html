@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../CSS/srawati.css">
+    <title>Saraswati Hospital</title>
+</head>
+<body>
+    <nav class="navbar">
+        <a href="../index.html">Home</a>
+        <a href="about.html">About US</a>
+        <a href="contact.html">Contact US</a>  
+        <a href="hospital.html">Back</a>    
+    </nav>
+
+    
+    <div class="home">
+        <h4>Saraswati Hospital</h4>
+    </div>
+
+    <div class="image">
+        <button class="one" onclick="plusDivs(1)">&#10095;</button>
+        <img class="mySlides" src="../IMG/saraswati/img1.jpg">
+        <img class="mySlides" src="../IMG/saraswati/img2.jpg">
+        <img class="mySlides" src="../IMG/saraswati/img3.jpg">
+        <img class="mySlides" src="../IMG/saraswati/img4.jpg">
+        <button class="two" onclick="plusDivs(-1)">&#10094;</button>
+      </div>
+   <div class="home">
+    <h4>Location</h4>
+</div>
+<div class="location">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7761.76575994169!2d74.73474089378666!3d19.090025470141125!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bdcb05fe8f28f33%3A0xa5a72b1522c8a97b!2sSaraswati%20Hospital%E2%80%93%20Maternity%20Hospital%2CPragnency%20care%2CGynecologist%2CObstetricians%2CInertility%2CPediatrics%20hospital%20in%20Ahmednagar!5e0!3m2!1sen!2sin!4v1682407460711!5m2!1sen!2sin"allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+<div class="home">
+    <h4>Doctors</h4>
+</div>
+
+<div class="container">
+
+<div class="img">
+    <img src="../IMG/saraswati/doctor1.jpg" alt="Loding........"><br>
+    <h4>Dr. Prajakata Jadhav(M.B.B.S, D.G.O)</h4>
+    <button><a href="apointment.html">Click Here For Apointment</a></button>
+</div>
+
+<div class="img">
+    <img src="../IMG/saraswati/doctor2.jpg" alt="Loding........"><br>
+    <h4>Dr. Amol Jadhav(M.S, F.MAS)</h4>
+    <button><a href="apointment.html">Click Here For Apointment</a></button>
+</div>
+
+<div class="img">
+    <img src="../IMG/saraswati/doctor3.jpg" alt="Loding........"><br>
+    <h4>Dr. Rahul Borude(M.B.B.S, D.C.H)</h4>
+    <button><a href="apointment.html">Click Here For Apointment</a></button>
+</div>
+
+<div class="img">
+    <img src="../IMG/saraswati/doctor4.jpg" alt="Loding........"><br>
+    <h4>Dr. Pathare Pratap(M.D, PEDIATRICIAN)</h4>
+    <button><a href="apointment.html">Click Here For Apointment</a></button>
+</div>
+
+<div class="img">
+    <img src="../IMG/saraswati/doctor5.jpg" alt="Loding........"><br>
+    <h4>Dr. Pradeep Jaiswal(M.B.B.S M.D)</h4>
+    <button><a href="apointment.html">Click Here For Apointment</a></button>
+</div>
+
+<div class="img">    
+    <img src="../IMG/saraswati/doctor6.jpg" alt="Loding........"><br>
+    <h4>Dr. Bangar Ramdas(M.D, PEDIATRICIAN)</h4>
+    <button><a href="apointment.html">Click Here For Apointment</a></button>
+</div>
+</div>
+<script>
+    var slideIndex = 1;
+    showDivs(slideIndex);
+    
+    function plusDivs(n) {
+      showDivs(slideIndex += n);
+    }
+    
+    function showDivs(n) {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      if (n > x.length) {slideIndex = 1}
+      if (n < 1) {slideIndex = x.length}
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";  
+      }
+      x[slideIndex-1].style.display = "block";  
+    }
+    </script>
+
+</body>
+</html>

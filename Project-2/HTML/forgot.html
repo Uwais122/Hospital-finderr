@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../CSS/forgot.css">
+    <title>Forgot Password?</title>
+</head>
+<body>
+    <form action="../PHP/forgot.php" method="post">
+    <nav class="navbar">
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="about.html">About US</a></li>
+            <li><a href="contact.html">Contact US</a></li>
+            <div class="log">
+        </div>
+        </ul>
+    </nav>
+    <img class="img" src="../IMG/home.jpeg" alt="">
+    <div class="container">
+        <input type="number" id="mnumber" name="mnumber" placeholder="Mobile Number" required/>
+        <br>
+        <input type="number" id="otp" name="otp" placeholder="Enter OTP" required/>
+        <br>
+    <input type="password" id="pass" name="pass" placeholder="Enter Password" required/>
+        <br>
+    <input type="password"id="repassword" name="repassword" placeholder="Re-Enter-Password"required/>
+         <br>
+         <form  action="../PHP/forgot.php" method="POST">
+            <div class="optionbtn">
+         <select name="usertype" id="usertype" required>
+               <option value="signup">Sign UP</option>
+               <option value="login" selected>Log IN</option>
+             </select>
+             </div>
+           </form>
+           <br>
+        <button type="submit" id="submit" name="submit">Submit</button>
+        <br>
+      </div>
+      </form>
+</body>
+</html>

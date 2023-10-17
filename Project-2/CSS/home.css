@@ -1,0 +1,84 @@
+*{
+    font-family: 'Oswald', sans-serif;
+    margin: 0%;
+    padding: 0%;
+    top:0%
+}
+.navbar{
+    overflow: auto;
+    list-style: none;
+}
+.navbar a{
+    font-size: 1.5rem;
+    float: left;
+    margin: 25px 25px;
+    text-decoration: none;
+    color: #319197;
+}
+.home{
+    background: url('../IMG/home.jpeg')no-repeat center center/cover;
+    top: 0%;
+    left: 0%;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.89;
+    width: 100%;
+    height:1200px;
+}
+.home h1{
+    text-shadow: 10px 20px 30px #319197;
+    font-size: 3.5rem;
+    color: #319197;
+    text-align: center;
+    margin-left:-100px;
+    margin-top:300px;
+    animation-name:home;
+    animation-duration: 3s;
+    animation-iteration-count: 10000;
+    position: relative;
+}
+@keyframes home{
+    0%{
+        bottom: 10px;
+    }
+    75%{
+        top: 50px;
+    }
+    100%{
+        bottom: 50px;
+    }
+}
+.navbar a:hover{
+    font-size: 1.7rem;
+    cursor: pointer;
+}
+.dropdown{
+    display: inline-block;
+    margin: 25px 25px;
+}
+.dropbtn{
+    border: 2px solid #319197;
+    padding: 2px 37px;
+    font-size: 1.5rem;
+    color: #319197;
+    background-color: white;
+}
+.dropdown-content{
+    margin: 70px 0px;
+    display: none;
+    position: absolute;
+    border: 2px solid #319197;
+    background-color: white;
+    width: 127px;
+}
+.dropdown-content a{
+    display: block;
+    text-decoration: none;
+    color: #319197;
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+.dropdown-content a:hover{
+    cursor: pointer;
+}

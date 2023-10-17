@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../CSS/saideep.css">
+    <title>Saideep Hospital</title>
+</head>
+<body>
+    
+    <nav class="navbar">
+        <a href="../index.html">Home</a>
+        <a href="about.html">About US</a>
+        <a href="contact.html">Contact US</a> 
+        <a href="hospital.html">Back</a>     
+    </nav>
+    
+    <div class="home">
+        <h4>Saideep Hospital</h4>
+    </div>
+    
+    <div class="image">
+        <button class="one" onclick="plusDivs(1)">&#10095;</button>
+        <img class="mySlides" src="../IMG/saideep/img1.jpg">
+        <img class="mySlides" src="../IMG/saideep/img2.JPG">
+        <img class="mySlides" src="../IMG/saideep/img3.JPG">
+        <img class="mySlides" src="../IMG/saideep/img4.jpg">
+      
+        <button class="two" onclick="plusDivs(-1)">&#10094;</button>
+      </div>
+
+   <div class="home">
+    <h4>Location</h4>
+   </div>
+
+   <div class="location">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3769.980479181019!2d74.74101991490164!3d19.10851228706934!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bdcb07a20ab7e9d%3A0x5c7b393f7b36fdd8!2sSaideep%20Hospital%2C%20Ahmednagar!5e0!3m2!1sen!2sin!4v1682491192014!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+
+
+<div class="home">
+    <h4>Doctors</h4>
+</div>
+
+<div class="container">
+
+    <div class="img">
+        <h4>Dr Deepak Subramaniyam Siddavaram (Chairman and MD)</h4>
+        <button><a href="apointment.html">Click Here For Apointment</a></button>
+    </div>
+    
+    <div class="img">
+        <h4>Dr Ramnath Radhakisan Dhoot (Director)</h4>
+        <button><a href="apointment.html">Click Here For Apointment</a></button>
+    </div>
+    
+    <div class="img">
+        <h4>Dr Kailash Ramdhan Jhalani (Director)</h4>
+        <button><a href="apointment.html">Click Here For Apointment</a></button>
+    </div>
+    
+    <div class="img">
+        <h4>Dr Ravindra Jagannath Somani (Director)</h4>
+        <button><a href="apointment.html">Click Here For Apointment</a></button>
+    </div>
+    
+    <div class="img">
+        <h4>Dr Shamsundar Ramkrishna Kekade (Director)</h4>
+        <button><a href="apointment.html">Click Here For Apointment</a></button>
+    </div>
+    
+    <div class="img">    
+        <h4>Dr  Anilkumar Murlidhar Kurhade	(Director)</h4>
+        <button><a href="apointment.html">Click Here For Apointment</a></button>
+    </div>
+    </div>
+    <script>
+        var slideIndex = 1;
+        showDivs(slideIndex);
+        
+        function plusDivs(n) {
+          showDivs(slideIndex += n);
+        }
+        
+        function showDivs(n) {
+          var i;
+          var x = document.getElementsByClassName("mySlides");
+          if (n > x.length) {slideIndex = 1}
+          if (n < 1) {slideIndex = x.length}
+          for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";  
+          }
+          x[slideIndex-1].style.display = "block";  
+        }
+        </script>
+
+</body>
+</html>

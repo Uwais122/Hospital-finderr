@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/apointment.css">
+    <script src="../JS/app.js"></script>
+    <title>Apointment Form</title>
+</head>
+<body>
+    <form action="../PHP/appointment.php" method="post">
+    <nav class="navbar">
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="about.html">About US</a></li>
+            <li><a href="contact.html">Contact US</a></li>
+        </ul>
+    </nav>
+    <img class="img" src="../IMG/home.jpeg" alt="">
+    <div class="container">
+        <div class="container1">
+        <input type="text" id="fname" name="fname" placeholder="Enter Full Name" required/>
+        </div>
+        <div class="container1">
+        <input type="number" id="mnumber" name="mnumber" placeholder="Enter Your Phone Number" required>
+        </div>
+        <div class="container1">
+    <textarea type="text" id="note" name="note" placeholder="The disease/Problem You Have" rows="5" cols="50" required></textarea>
+        </div>
+         <div class="gender">
+         Gender:&nbsp;&nbsp;Male<input type="radio" name="mygender" id="mygender" value="Male" >Female <input type="radio" name="mygender" id="mygender" value="Female">
+         </div>
+        <br>
+        <button type="submit" id="submit" name="submit" onclick="fillit();">Submit</button><br>
+    </div>
+</form>
+</body>
+</html>

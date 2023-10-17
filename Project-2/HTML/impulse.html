@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../CSS/impulse.css">
+    <title>Impulse Hospital</title>
+</head>
+<body>
+    <nav class="navbar">
+        <a href="../index.html">Home</a>
+        <a href="about.html">About US</a>
+        <a href="contact.html">Contact US</a>   
+        <a href="hospital.html">Back</a>     
+    </nav>
+    
+    <div class="home">
+        <h4>Impulse Hospital</h4>
+    </div>
+    
+    <div class="image">
+        <button class="one" onclick="plusDivs(1)">&#10095;</button>
+        <img class="mySlides" src="../IMG/impulse/img1.jpg">
+        <img class="mySlides" src="../IMG/impulse/img2.jpg">
+        <img class="mySlides" src="../IMG/impulse/img3.jpeg">
+        <img class="mySlides" src="../IMG/impulse/img4.jpeg">
+      
+        <button class="two" onclick="plusDivs(-1)">&#10094;</button>
+      </div>
+
+   <div class="home">
+    <h4>Location</h4>
+   </div>
+
+   <div class="location">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3769.6138389892635!2d74.7244863149019!3d19.124589487060028!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bdcbb18b47f2545%3A0x3a191c947ea818a8!2sImpulse%20Plus%20Hospital%20Private%20Limited!5e0!3m2!1sen!2sin!4v1682489986488!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+
+
+<div class="home">
+    <h4>Doctors</h4>
+</div>
+
+<div class="container">
+
+    <div class="img">
+        <img src="../IMG/impulse/doctor1.jpg" alt="Loding........"><br>
+        <h4>डॉ. संदिप गाडे (M.B.B.S.D.M.R.E)</h4>
+        <button><a href="apointment.html">Click Here For Apointment</a></button>
+    </div>
+    
+    <div class="img">
+        <img src="../IMG/impulse/doctor2.jpeg" alt="Loding........"><br>
+        <h4>डॉ. मुकुंद विधाते (Neurologist)</h4>
+        <button><a href="apointment.html">Click Here For Apointment</a></button>
+    </div>
+    
+    <div class="img">
+        <img src="../IMG/impulse/doctor3.jpg" alt="Loding........"><br>
+        <h4>डॉ. विजय गाडे (Cornea Surgeon)</h4>
+        <button><a href="apointment.html">Click Here For Apointment</a></button>
+    </div>
+    
+    <div class="img">
+        <img src="../IMG/impulse/doctor4.jpg" alt="Loding........"><br>
+        <h4>डॉ. बी. बी. शिंदे (M.B.B.S.M.D.)</h4>
+        <button><a href="apointment.html">Click Here For Apointment</a></button>
+    </div>
+    
+    <div class="img">
+        <img src="../IMG/impulse/doctor5.jpg" alt="Loding........"><br>
+        <h4>डॉ. महेश घुगे (MBBSDN.BDMR.D)</h4>
+        <button><a href="apointment.html">Click Here For Apointment</a></button>
+    </div>
+    
+    <div class="img">    
+        <img src="../IMG/impulse/doctor6.jpeg" alt="Loding........"><br>
+        <h4>डॉ. रवींद्र कवडे (Administration Department Administrative Officer)</h4>
+        <button><a href="apointment.html">Click Here For Apointment</a></button>
+    </div>
+    </div>
+    <script>
+        var slideIndex = 1;
+        showDivs(slideIndex);
+        
+        function plusDivs(n) {
+          showDivs(slideIndex += n);
+        }
+        
+        function showDivs(n) {
+          var i;
+          var x = document.getElementsByClassName("mySlides");
+          if (n > x.length) {slideIndex = 1}
+          if (n < 1) {slideIndex = x.length}
+          for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";  
+          }
+          x[slideIndex-1].style.display = "block";  
+        }
+        </script>
+    
+
+</body>
+</html>

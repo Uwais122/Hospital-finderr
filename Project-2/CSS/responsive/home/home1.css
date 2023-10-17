@@ -1,0 +1,62 @@
+.home{
+    top: 0%;
+    left: 0%;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.89;
+    width: 100%;
+    height: 900px;
+}
+.navbar a{
+    font-size: 1.3rem;
+    float: left;
+    margin: 25px 15px 25px 5px;
+    text-decoration: none;
+    color: #319197;
+}
+.navbar a:hover{
+    font-size: 1.4rem;
+    cursor: pointer;
+}
+.dropbtn{
+    border: 2px solid #319197;
+    padding: 0px 10px;
+    font-size: 1.3rem;
+    color: #319197;
+    background-color: white;
+}
+.home h1{
+    text-shadow: 10px 20px 30px #319197;
+    font-size: 2.5rem;
+    color: #319197;
+    text-align: center;
+    margin-left:-10px;
+    margin-top:300px;
+    animation-name:home;
+    animation-duration: 3s;
+    animation-iteration-count: 10000;
+    position: relative;
+}
+.dropdown{
+    display: inline-block;
+    margin: 25px 25px;
+}
+.dropdown-content{
+    margin: 63px 0px;
+    display: none;
+    position: absolute;
+    border: 2px solid #319197;
+    background-color: white;
+    width: 67px;
+}
+.dropdown-content a{
+    margin: 5px 0px 10px 5px;
+    display: block;
+    text-decoration: none;
+    color: #319197;
+    font-size:20px;
+}
+.dropdown-content a:hover{
+    cursor: pointer;
+    font-size:20px;
+}

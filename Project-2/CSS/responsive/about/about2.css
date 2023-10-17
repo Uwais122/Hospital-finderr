@@ -1,0 +1,31 @@
+.navbar a{
+    text-decoration: none;
+    font-size: 15px;
+    float: left;
+    margin: 20px 20px 20px 10px;
+    color: #319197;
+}
+.navbar a:hover{
+    font-size:16px;
+    cursor: pointer;
+}
+.container{
+    padding-top: 40px;
+    padding-bottom: 70px;
+    padding-left: 94px;
+    padding-right: 106px;
+    margin-top: 50px;
+    margin-left: 230px;
+    margin-right: 630px;
+    box-shadow: 25px 25px 30px 0px;
+}
+.container{
+    text-align: center;
+    margin: 150px 60px 100px 40px;
+    padding: 30px;
+}
+.container h4{
+    text-align: center;
+    color: #319197;
+    font-size:17px;
+}

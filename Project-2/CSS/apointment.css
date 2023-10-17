@@ -1,0 +1,479 @@
+*{
+    font-family: 'Oswald', sans-serif;
+    margin: 0%;
+    padding: 0%;
+    top:0%
+}
+.navbar{
+    position: sticky;
+}
+.navbar ul{
+    overflow: auto;
+    list-style: none;
+}
+
+.navbar li a{
+    font-size: 1.5rem;
+    float: left;
+    margin: 25px 25px;
+    text-decoration: none;
+    color: #319197;
+}
+.navbar li :hover{
+    font-size: 1.7rem;
+    cursor: pointer;
+}
+.img{
+    top: 0%;
+    left: 0%;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.89;
+    width: 100%;
+    height: 755px;
+}
+.container input:hover{
+    cursor: pointer;
+}
+.container{
+    padding-top: 30px;
+    padding-bottom: 25px;
+    padding-left: 100px;
+    padding-right: 106px;
+    margin-top: 50px;
+    margin-left: 260px;
+    margin-right: 1766px;
+    box-shadow: 25px 25px 30px 0px;
+}
+.container1 input{
+    height: 40px;
+    border-radius: 21px;
+    border: 2px solid #319197;
+    text-align: center;
+    margin: 2px 10px 25px -47px;
+    width: 400px;
+}
+.container button a{
+    color: white;
+    margin: 0px 123px 5px 0px;
+    font-size: 1.3rem;
+}
+.container button{
+    margin: 0px 0px 0px 8px;
+    border-radius:21px;
+    background-color: #319197;
+    width: 300px;
+    height: 40px;
+}
+ .container button:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+} 
+
+.container a:hover{
+text-decoration:2px underline #319197;
+cursor: pointer;
+}
+.container a{
+    text-decoration: none;
+    list-style: none;
+    color: #319197;
+    float: right;
+    margin: 15px 31px;
+}
+  ::placeholder{
+    color:black;
+    font-size:17px;
+  }
+  textarea{
+    border-radius: 21px;
+    border: 2px solid #319197;
+    text-align: center;
+    margin: 2px 10px 10px -43px;
+    width: 400px;
+    padding: 40px 0px 0px 0px;
+
+  }
+ .gender #mygender{
+    margin: 10px 10px 10px 10px;
+  }
+.gender{
+    margin: 10px 10px 10px 10px;
+    padding: 0px 0px 0px 10px;
+      font-size: 1.3rem;
+  }
+  /* --------------------------------------------------------------------------------------------------------------------------------------------------------- */
+ @media screen and (max-width: 1440px){
+    .container{
+        padding-top: 20px;
+        padding-bottom: 30px;
+        padding-left: 99px;
+        padding-right: 106px;
+        margin-top: 50px;
+        margin-left: 210px;
+        margin-right: 570px;
+        box-shadow: 25px 25px 30px 0px;
+    }
+    .gender{
+        margin: 10px 10px 10px 5px;
+        border-radius: 21px;
+        border: 2px solid #319197;
+        padding: 0px 0px 0px 10px;
+          font-size: 1.3rem;
+          width: 280px;
+      }
+    
+}
+@media screen and (max-width: 1100px) {
+    .container{
+        padding-top: 60px;
+        padding-bottom: 80px;
+        padding-left: 90px;
+        padding-right: 106px;
+        margin-top: 50px;
+        margin-left: 210px;
+        margin-right: 210px;
+        box-shadow: 25px 25px 30px 0px;
+    }
+    .img{
+        top: 0%;
+        left: 0%;
+        position: absolute;
+        z-index: -1;
+        opacity: 0.89;
+        width: 100%;
+        height: 1370px;
+    }
+    .gender{
+        margin: 10px 10px 10px 0px;
+        border-radius: 21px;
+        border: 2px solid #319197;
+        padding: 0px 0px 0px 10px;
+          font-size: 1.3rem;
+      }
+    
+}
+@media screen and (max-width: 820px) {
+    .container{
+        padding-top: 60px;
+        padding-bottom: 40px;
+        padding-left: 99px;
+        padding-right: 106px;
+        margin-top: 50px;
+        margin-left: 80px;
+        margin-right: 270px;
+        box-shadow: 25px 25px 30px 0px;
+    }
+    .container input{
+        height: 40px;
+        border-radius: 21px;
+        border: 2px solid #319197;
+        text-align: center;
+        margin: 2px 10px 25px -50px;
+        width:250px;
+    }
+    .container button{
+        margin: 0px 0px 0px -30px;
+        border-radius:21px;
+        background-color: #319197;
+        width: 250px;
+        height: 40px;
+    }
+    .container button:hover{
+        cursor: pointer;
+        transform: scale(1);
+    } 
+    .img{
+        top: 0%;
+        left: 0%;
+        position: absolute;
+        z-index: -1;
+        opacity: 0.89;
+        width: 100%;
+        height: 1190px;
+    }
+    textarea{
+        border-radius: 21px;
+        border: 2px solid #319197;
+        text-align: center;
+        margin: 2px 10px 10px -43px;
+        width: 250px;
+        padding: 40px 0px 0px 0px;
+    
+      }
+      .gender input{
+        width: 20px;
+        height: 20px;
+      }
+    .gender{
+        margin: 10px 10px 10px -42px;
+        border-radius: 21px;
+        border: 2px solid #319197;
+        padding: 0px 0px 0px 10px;
+          font-size:15px;
+          width: 250px;
+          height: 40px;
+      }
+    
+}
+@media screen and (max-width: 425px) {
+    .container{
+        padding-top:15px;
+        padding-bottom:15px;
+        padding-left: 110px;
+        padding-right: 106px;
+        margin-top: 90px;
+        margin-left: 40px;
+        margin-right: 50px;
+        box-shadow: 25px 25px 30px 0px;
+    }
+    .container input{
+        height: 40px;
+        border-radius: 21px;
+        border: 2px solid #319197;
+        text-align: center;
+        margin: 2px 10px 25px -50px;
+        width:200px;
+    }
+    .container button{
+        margin: 0px 0px 0px -30px;
+        border-radius:21px;
+        background-color: #319197;
+        width: 200px;
+        height: 40px;
+    }
+    .container button:hover{
+        cursor: pointer;
+        transform: scale(1);
+    } 
+    .img{
+        top: 0%;
+        left: 0%;
+        position: absolute;
+        z-index: -1;
+        opacity: 0.89;
+        width: 100%;
+        height: 1190px;
+    }
+    textarea{
+        border-radius: 21px;
+        border: 2px solid #319197;
+        text-align: center;
+        margin: 2px 10px 10px -43px;
+        width: 200px;
+        padding: 40px 0px 0px 0px;
+    
+      }
+      .gender input{
+        width: 20px;
+        height: 20px;
+      }
+      .gender #mygender{
+        margin: 3px 5px 3px 5px;
+      }
+    .gender{
+        margin: 10px 10px 10px -42px;
+        border-radius: 21px;
+        border: 2px solid #319197;
+        padding: 0px 0px 0px 10px;
+          font-size:15px;
+          width: 210px;
+          height: 30px;
+      }
+    .navbar li a{
+        font-size: 20px;
+        float: left;
+        margin: 20px 20px 20px 10px;
+        color: #319197;
+        text-decoration: none;
+    }
+    .navbar li :hover{
+        font-size:21px;
+        cursor: pointer;
+    }
+    ::placeholder{
+        color:black;
+        font-size:15px;
+      }    
+}
+@media screen and (max-width: 375px){
+    .container{
+        padding-top:15px;
+        padding-bottom:15px;
+        padding-left: 90px;
+        padding-right: 106px;
+        margin-top: 90px;
+        margin-left: 40px;
+        margin-right: 50px;
+        box-shadow: 25px 25px 30px 0px;
+    }
+    .container input{
+        height: 40px;
+        border-radius: 21px;
+        border: 2px solid #319197;
+        text-align: center;
+        margin: 2px 10px 25px -50px;
+        width:200px;
+    }
+    .container button{
+        margin: 0px 0px 0px -30px;
+        border-radius:21px;
+        background-color: #319197;
+        width: 200px;
+        height: 40px;
+    }
+    .container button:hover{
+        cursor: pointer;
+    } 
+    .img{
+        top: 0%;
+        left: 0%;
+        position: absolute;
+        z-index: -1;
+        opacity: 0.89;
+        width: 100%;
+        height: 1190px;
+    }
+    textarea{
+        border-radius: 21px;
+        border: 2px solid #319197;
+        text-align: center;
+        margin: 2px 10px 10px -43px;
+        width: 200px;
+        padding: 40px 0px 0px 0px;
+    
+      }
+      .gender input{
+        width: 20px;
+        height: 20px;
+      }
+      .gender #mygender{
+        margin: 3px 5px 3px 5px;
+      }
+    .gender{
+        margin: 10px 10px 10px -55px;
+        border-radius: 21px;
+        border: 2px solid #319197;
+        padding: 0px 0px 0px 10px;
+          font-size:15px;
+          width: 210px;
+          height: 30px;
+      }
+    .navbar li a{
+        font-size: 20px;
+        float: left;
+        margin: 20px 20px 20px 10px;
+        color: #319197;
+        text-decoration: none;
+    }
+    .navbar li :hover{
+        font-size:21px;
+        cursor: pointer;
+    }
+    ::placeholder{
+        color:black;
+        font-size:15px;
+      }    
+}
+@media screen and (max-width: 320px) {
+    .container{
+        padding-top:15px;
+        padding-bottom:15px;
+        padding-left: 90px;
+        padding-right: 106px;
+        margin-top: 90px;
+        margin-left: 40px;
+        margin-right: 5px;
+        box-shadow: 25px 25px 30px 0px;
+    }
+    .container input{
+        height: 40px;
+        border-radius: 21px;
+        border: 2px solid #319197;
+        text-align: center;
+        margin: 2px 10px 25px -50px;
+        width:160px;
+    }
+    .container button{
+        margin: 0px 0px 0px -44px;
+        border-radius:21px;
+        background-color: #319197;
+        width: 160px;
+        height: 40px;
+    }
+    .container button:hover{
+        cursor: pointer;
+    } 
+    .img{
+        top: 0%;
+        left: 0%;
+        position: absolute;
+        z-index: -1;
+        opacity: 0.89;
+        width: 100%;
+        height: 1190px;
+    }
+    textarea{
+        border-radius: 21px;
+        border: 2px solid #319197;
+        text-align: center;
+        margin: 2px 10px 10px -43px;
+        width: 160px;
+        padding: 40px 0px 0px 0px;
+    
+      }
+      .gender input{
+        width: 20px;
+        height: 15px;
+      }
+      .gender #mygender{
+        margin: 5px 0px 0px 0px;
+      }
+    .gender{
+        margin: 10px 10px 10px -80px;
+        border-radius: 21px;
+        border: 2px solid #319197;
+        padding: 0px 0px 0px 10px;
+          font-size:15px;
+          width: 200px;
+          height: 30px;
+      }
+    .navbar li a{
+        font-size: 18px;
+        float: left;
+        margin: 20px 20px 20px 10px;
+        color: #319197;
+        text-decoration: none;
+    }
+    .navbar li :hover{
+        font-size:19px;
+        cursor: pointer;
+    }
+    ::placeholder{
+        color:black;
+        font-size:13px;
+      }    
+}
+@media screen and (max-width: 280px){
+    .container{
+        padding-top:15px;
+        padding-bottom:15px;
+        padding-left: 90px;
+        padding-right: 106px;
+        margin-top: 90px;
+        margin-left: 40px;
+        margin-right: 5px;
+        box-shadow: 25px 25px 30px 0px;
+    }
+    .navbar li a{
+        font-size: 15px;
+        float: left;
+        margin: 20px 20px 20px 10px;
+        color: #319197;
+        text-decoration: none;
+    }
+    .navbar li :hover{
+        font-size:16px;
+        cursor: pointer;
+    }  
+}

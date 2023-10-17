@@ -1,0 +1,11 @@
+.navbar li a{
+    font-size: 15px;
+    float: left;
+    margin: 20px 20px 20px 10px;
+    color: #319197;
+    text-decoration: none;
+}
+.navbar li :hover{
+    font-size:16px;
+    cursor: pointer;
+}  

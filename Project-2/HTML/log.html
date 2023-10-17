@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log IN</title>
+    <link rel="stylesheet" href="../CSS/log.css">
+    <link rel="stylesheet" media="screen and (max-width:693px)" href="../CSS/responsive/LSF/LSF1.css">
+    <link rel="stylesheet" media="screen and (max-width:368px)" href="../CSS/responsive/LSF/LSF2.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script>
+    $(document).ready(function () {
+    $("#submit").on("click", function () {
+    var email = $('#email').val();
+    var pass = $('#pass').val();
+    $.ajax({
+    url: "../PHP/login.php",
+    type: "POST",
+     data: {
+    email: email,
+    pass: pass
+   },
+  cache: false,
+ success: function (result) {
+ // alert(result)
+if (result == "1") {
+location.replace("../HTML/hospital.html")
+}                
+else{
+// alert("Wrong Password Re Enter Password");
+$("#coment").html("Wrong password");
+}
+}});
+});
+});
+</script>
+</head>
+<body>
+    <nav class="navbar">
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="about.html">About US</a></li>
+            <li><a href="contact.html">Contact US</a></li>
+            <div class="log">
+        <li><a href="sign.html">Sign UP</a></li>
+        </div>
+        </ul>
+    </nav>
+    <img class="img" src="../IMG/home.jpeg" alt="">
+    <div class="container">
+    <input type="text" id="email" name="email" placeholder="Email ID" required/>
+        <br>
+        <input type="password" name="pass" id="pass" placeholder="Password" required/>
+        <p id="coment"></p>
+        <br>
+        <button type="submit" name="submit" id="submit">Log IN</button><br>
+        <a href="forgot.html">Forgot Password?</a>     
+      </div>
+</body>
+</html>

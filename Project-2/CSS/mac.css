@@ -1,0 +1,781 @@
+*{
+    font-family: 'Oswald', sans-serif;
+    margin: 0%;
+    padding: 0%;
+    top:0%
+}
+.navbar{
+    background:#318097;
+    overflow: auto;
+    list-style: none;
+}
+.navbar a{
+    text-decoration: underline 2px solid #318097;
+    font-size: 1.5rem;
+    float: left;
+    margin: 0px 20px 10px 20px;
+    color: white;
+}
+.navbar a:hover{
+    font-size: 1.7rem;
+    cursor: pointer;
+}
+.home h4{
+    width: 100%;
+    text-shadow: 14px 13px 10px  black;
+    font-family:'Alumni Sans', sans-serif;
+    font-size:2.3rem;
+    margin: 0px 0px 20px 0px;
+    padding: 10px 0px 10px 0px;
+    text-align:center;
+    color: white;
+    background-color: #318097;
+}
+.image img{
+    width: 100%;
+    height: 450px;
+}
+.location iframe{
+    width: 1200px;
+    height: 400px;
+    margin: 30px 50px 20px 65px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 5px;
+}
+.container img{
+    width: 400px;
+    height: 300px;
+    border-radius: 21px;
+}
+.container{
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: 2fr 2fr 1fr;
+    margin: 10px 10px 10px 10px;  
+}
+.container h4{
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: 1fr 0fr 0fr;
+    margin: 10px 20px 10px 20px; 
+    text-align: center; 
+    color:white;
+    font-size: 1.4rem;
+    text-decoration: underline 2px solid #318097;
+}
+.img{
+    border-radius: 21px;
+    background-color:#319197;
+    padding: 15px;
+}
+.img button a{
+    text-decoration: none;
+    color: white;
+}
+.img button{
+    background-color: black;
+    border-radius: 5px;
+    width: 200px;
+    height: 30px;
+    margin: 10px 100px 10px 100px;
+    padding: 2px 10px 2px 10px;
+}
+.img button:hover{
+   transform: scale(1.2);
+   cursor: pointer;
+}
+.mySlides{
+    display: none;
+}
+.one{
+    top: 50%;
+    left: 0.40%;
+    position: absolute;
+}
+.two{
+    float: right;
+    top: 50%;
+    right: 0.40%;
+    position: absolute;
+}
+.image button{
+    background-color: #319197;
+    transform: scale(2);
+}
+.image button:hover{
+    cursor: pointer;
+    color:black;
+    background-color:#318097;
+}
+
+/* --------------------------------------------------------------------------------------------------------------------------------------------------------- */
+@media screen and (max-width: 1440px){
+    .navbar{
+            width: 102%;
+        background:#318097;
+        overflow: auto;
+        list-style: none;
+    }
+    .navbar a{
+        text-decoration: underline 2px solid #318097;
+        font-size: 2.1rem;
+        float: left;
+        margin: 0px 80px 10px 10px;
+        color: white;
+    }
+    .navbar a:hover{
+        font-size: 2.2rem;
+        cursor: pointer;
+    }
+    .home h4{
+        width: 102%;
+        text-shadow: 14px 13px 10px  black;
+        font-family:'Alumni Sans', sans-serif;
+        font-size:2.1rem;
+        margin: 0px 0px 20px 0px;
+        padding: 10px 0px 10px 0px;
+        text-align:center;
+        color: white;
+        background-color: #318097;
+    }
+    .image img{
+        width: 102%;
+        height: 500px;
+    }
+    .location iframe{
+        width: 1200px;
+        height: 400px;
+        margin: 20px 50px 20px 65px;
+        padding: 10px 10px 10px 10px;
+        border-radius: 5px;
+    }
+    .container img{
+        width: 400px;
+        height: 300px;
+        border-radius: 21px;
+    }
+    .container{
+        width:99%;
+        text-align: center;
+        display: grid;
+        grid-gap: 1rem;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin: 10px 10px 10px 10px;  
+    }
+    .container h4{
+        display: grid;
+        grid-gap: 1rem;
+        grid-template-columns: 1fr 0fr 0fr;
+        margin: 10px 20px 10px 20px; 
+        text-align: center; 
+        color:white;
+        font-size: 1.1rem;
+        text-decoration: underline 2px solid #318097;
+    }
+    .one{
+        top:50%;
+        left: 0.2%;
+        position: absolute;
+    }
+    .two{
+        float: right;
+        top:50%;
+        right:0.4%;
+        position: absolute;
+    }
+    .image button{
+        background-color: #319197;
+        transform: scale(2);
+    }
+    .img button{
+        background-color: black;
+        border-radius: 5px;
+        width: 200px;
+        height: 40px;
+        margin: 10px 100px 10px 100px;
+        padding: 2px 10px 2px 10px;
+    }
+    .img button:hover{
+       transform: scale(1.2);
+       cursor: pointer;
+    }
+    .img button a{
+        text-decoration: none;
+        color: white;
+        font-size: 15px;
+    }
+    }
+    @media screen and (max-width:1280px){
+        .one{
+            top:50%;
+            left: 1.6%;
+            position: absolute;
+        }
+        .two{
+            float: right;
+            top:50%;
+            right:-1%;
+            position: absolute;
+        }
+        .container img{
+            width: 300px;
+            height: 300px;
+            border-radius: 21px;
+        }
+    }
+    @media screen and (max-width: 1050px){
+        .navbar{
+            width: 102%;
+        background:#318097;
+        overflow: auto;
+        list-style: none;
+    }
+    .navbar a{
+        text-decoration: underline 2px solid #318097;
+        font-size: 2.1rem;
+        float: left;
+        margin: 0px 80px 10px 10px;
+        color: white;
+    }
+    .navbar a:hover{
+        font-size: 2.2rem;
+        cursor: pointer;
+    }
+    .home h4{
+        width: 102%;
+        text-shadow: 14px 13px 10px  black;
+        font-family:'Alumni Sans', sans-serif;
+        font-size:2.1rem;
+        margin: 0px 0px 20px 0px;
+        padding: 10px 0px 10px 0px;
+        text-align:center;
+        color: white;
+        background-color: #318097;
+    }
+    .image img{
+        width: 102%;
+        height: 500px;
+    }
+    .location iframe{
+        width: 900px;
+        height: 400px;
+        margin: 20px 50px 20px 65px;
+        padding: 10px 10px 10px 10px;
+        border-radius: 5px;
+    }
+    .container img{
+        width: 250px;
+        height: 250px;
+        border-radius: 21px;
+    }
+    .container{
+        width:98%;
+        text-align: center;
+        display: grid;
+        grid-gap: 1rem;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin: 10px 10px 10px 10px;  
+    }
+    .container h4{
+        display: grid;
+        grid-gap: 1rem;
+        grid-template-columns: 1fr 0fr 0fr;
+        margin: 10px 20px 10px 20px; 
+        text-align: center; 
+        color:white;
+        font-size: 1.1rem;
+        text-decoration: underline 2px solid #318097;
+    }
+    .img{
+        border-radius: 21px;
+        background-color:#319197;
+        padding: 15px;
+    }
+    .one{
+        top:50%;
+        left: 0.2%;
+        position: absolute;
+    }
+    .two{
+        float: right;
+        top:50%;
+        right:0.4%;
+        position: absolute;
+    }
+    .image button{
+        background-color: #319197;
+        transform: scale(2);
+    }
+    .img button{
+        background-color: black;
+        border-radius: 5px;
+        width: 200px;
+        height: 40px;
+        margin: 10px 10px 10px 10px;
+        padding: 2px 10px 2px 10px;
+    }
+    .img button:hover{
+       transform: scale(1.2);
+       cursor: pointer;
+    }
+    .img button a{
+        text-decoration: none;
+        color: white;
+        font-size: 15px;
+    }
+    }
+    @media screen and (max-width:912px){
+        .location iframe{
+            width:770px;
+            height: 400px;
+            margin: 20px 50px 20px 10px;
+            padding: 10px 10px 10px 10px;
+            border-radius: 5px;
+        }
+        .navbar{
+            width:100%;
+            background:#318097;
+            overflow: auto;
+            list-style: none;
+        }
+        .home h4{
+            width:100%;
+            text-shadow: 14px 13px 10px  black;
+            font-family:'Alumni Sans', sans-serif;
+            font-size:2.7rem;
+            margin: 0px 0px 20px 0px;
+            padding: 10px 0px 10px 0px;
+            text-align:center;
+            color: white;
+            background-color: #318097;
+        }
+        .image img{
+            width:100%;
+            height: 500px;
+        }
+        .one{
+            top: 35%;
+            left:1%;
+            position: absolute;
+        }
+        .two{
+            float: right;
+            top: 35%;
+            right:1%;
+            position: absolute;
+        }
+        .container img{
+            width: 200px;
+            height: 200px;
+            border-radius: 21px;
+        }
+        .img button a{
+            text-decoration: none;
+            color: white;
+        }
+        .container h4{
+            display: grid;
+            grid-gap: 1rem;
+            grid-template-columns: 1fr 0fr 0fr;
+            margin: 10px 20px 10px 20px; 
+            text-align: center; 
+            color:white;
+            font-size: 1.1rem;
+            text-decoration: underline 2px solid #318097;
+        }
+        }
+        @media screen and (max-width: 768px){
+    
+            .navbar{
+                    width:100%;
+                background:#318097;
+                overflow: auto;
+                list-style: none;
+            }
+            .navbar a{
+                text-decoration: underline 2px solid #318097;
+                font-size:1.9rem;
+                float: left;
+                margin: 0px 80px 10px 20px;
+                color: white;
+            }
+            .navbar a:hover{
+                font-size: 2rem;
+                cursor: pointer;
+            }
+            .home h4{
+                width:100%;
+                text-shadow: 14px 13px 10px  black;
+                font-family:'Alumni Sans', sans-serif;
+                font-size:1.9rem;
+                margin: 0px 0px 20px 0px;
+                padding: 10px 0px 10px 0px;
+                text-align:center;
+                color: white;
+                background-color: #318097;
+            }
+            .image img{
+                width:100%;
+                height: 500px;
+            }
+            .location iframe{
+                width: 660px;
+                height: 400px;
+                margin: 20px 50px 20px 45px;
+                padding: 10px 10px 10px 10px;
+                border-radius: 5px;
+            }
+            .container img{
+                width: 180px;
+                height: 180px;
+                border-radius: 21px;
+            }
+            .container{
+                width:95%;
+                text-align: center;
+                display: grid;
+                grid-gap: 1rem;
+                grid-template-columns: 1fr 1fr 1fr;
+                margin: 10px 10px 10px 10px;  
+            }
+            .container h4{
+                display: grid;
+                grid-gap: 1rem;
+                grid-template-columns: 1fr 0fr 0fr;
+                margin: 10px 20px 10px 20px; 
+                text-align: center; 
+                color:white;
+                font-size: 1.1rem;
+                text-decoration: underline 2px solid #318097;
+            }
+            .one{
+                top: 50%;
+                left:1.1%;
+                position: absolute;
+            }
+            .two{
+                float: right;
+                top: 50%;
+                right:0.6%;
+                position: absolute;
+            }
+            .image button{
+                background-color: #319197;
+                transform: scale(2);
+            }
+            .img button{
+                background-color: black;
+                border-radius: 5px;
+                width: 188px;
+                height: 30px;
+                margin: 10px 10px 10px 10px;
+                padding: 2px 10px 2px 10px;
+            }
+            .img button:hover{
+               cursor: pointer;
+            }
+            .img button a{
+                text-decoration: none;
+                color: white;
+            }
+            }
+            @media screen and (max-width:540px){
+                .location iframe{
+                    width:480px;
+                    height: 400px;
+                    margin: 20px 50px 20px 10px;
+                    padding: 10px 10px 10px 10px;
+                    border-radius: 5px;
+                }
+                .navbar{
+                    width:100%;
+                    background:#318097;
+                    overflow: auto;
+                    list-style: none;
+                }
+                .navbar a{
+                    text-decoration: underline 2px solid #318097;
+                    font-size: 1.6rem;
+                    float: left;
+                    margin: 0px 10px 10px 20px;
+                    color: white;
+                }
+                .navbar a:hover{
+                    font-size: 1.7rem;
+                    cursor: pointer;
+                }
+                .home h4{
+                    width:100%;
+                    text-shadow: 14px 13px 10px  black;
+                    font-family:'Alumni Sans', sans-serif;
+                    font-size:1.6rem;
+                    margin: 0px 0px 20px 0px;
+                    padding: 10px 0px 10px 0px;
+                    text-align:center;
+                    color: white;
+                    background-color: #318097;
+                }
+                .image img{
+                    width:100%;
+                    height: 500px;
+                }
+                .one{
+                    top: 50%;
+                    left:1%;
+                    position: absolute;
+                }
+                .two{
+                    float: right;
+                    top: 50%;
+                    right:1%;
+                    position: absolute;
+                }
+                .container img{
+                    width: 150px;
+                    height: 150px;
+                    border-radius: 21px;
+                }
+                .container{
+                    width:95%;
+                    text-align: center;
+                    display: grid;
+                    grid-gap: 1rem;
+                    grid-template-columns: 1fr;
+                    margin: 10px 10px 10px 10px;  
+                }
+                }
+            @media screen and (max-width: 425px){
+    
+                .navbar{
+                    width:100%;
+                    background:#318097;
+                    overflow: auto;
+                    list-style: none;
+                }
+                .navbar a{
+                    text-decoration: underline 2px solid #318097;
+                    font-size: 1.1rem;
+                    float: left;
+                    margin: 0px 10px 10px 20px;
+                    color: white;
+                }
+                .navbar a:hover{
+                    font-size: 1.2rem;
+                    cursor: pointer;
+                }
+
+                .navbar a:hover{
+                    font-size: 1.2rem;
+                    cursor: pointer;
+                }
+                .home h4{
+                    width:100%;
+                    text-shadow: 14px 13px 10px  black;
+                    font-family:'Alumni Sans', sans-serif;
+                    font-size:1.1rem;
+                    margin: 0px 0px 20px 0px;
+                    padding: 10px 0px 10px 0px;
+                    text-align:center;
+                    color: white;
+                    background-color: #318097;
+                }
+                .image img{
+                    width:100%;
+                    height: 500px;
+                }
+                .location iframe{
+                    width:380px;
+                    height: 400px;
+                    margin: 20px 50px 20px 10px;
+                    padding: 10px 10px 10px 10px;
+                    border-radius: 5px;
+                }
+                .container img{
+                    width: 150px;
+                    height: 150px;
+                    border-radius: 21px;
+                }
+                .container{
+                    width:96%;
+                    text-align: center;
+                    display: grid;
+                    grid-gap: 1rem;
+                    grid-template-columns:1fr;
+                    margin: 10px 10px 10px 10px;  
+                }
+                .container h4{
+                    display: grid;
+                    grid-gap: 1rem;
+                    grid-template-columns: 1fr 0fr 0fr;
+                    margin: 10px 20px 10px 20px; 
+                    text-align: center; 
+                    color:white;
+                    font-size:1.1rem;
+                    text-decoration: underline 2px solid #318097;
+                }
+                .one{
+                    top: 50%;
+                    left:1%;
+                    position: absolute;
+                }
+                .two{
+                    float: right;
+                    top: 50%;
+                    right:0.7%;
+                    position: absolute;
+                }
+                .image button{
+                    background-color: #319197;
+                    transform: scale(2);
+                }
+                .img button{
+                    background-color: black;
+                    border-radius: 5px;
+                    width:200px;
+                    height:30px;
+                    margin: 10px 10px 10px 10px;
+                    padding: 2px 10px 2px 10px;
+                }
+                .img button:hover{
+                   cursor: pointer;
+                }
+                .img button a{
+                    text-decoration: none;
+                    color: white;
+                }
+                }
+                @media screen and (max-width: 412px){
+                    .location iframe{
+                        width:330px;
+                        height: 400px;
+                        margin: 20px 50px 20px 10px;
+                        padding: 10px 10px 10px 10px;
+                        border-radius: 5px;
+                    }
+                    }
+                @media screen and (max-width: 375px){
+                    .location iframe{
+                        width:330px;
+                        height: 400px;
+                        margin: 20px 50px 20px 10px;
+                        padding: 10px 10px 10px 10px;
+                        border-radius: 5px;
+                    }
+                    .navbar{
+                        width:102%;
+                        background:#318097;
+                        overflow: auto;
+                        list-style: none;
+                    }
+                    .home h4{
+                        width:102%;
+                        text-shadow: 14px 13px 10px  black;
+                        font-family:'Alumni Sans', sans-serif;
+                        font-size:1.1rem;
+                        margin: 0px 0px 20px 0px;
+                        padding: 10px 0px 10px 0px;
+                        text-align:center;
+                        color: white;
+                        background-color: #318097;
+                    }
+                    .image img{
+                        width:102%;
+                        height: 500px;
+                    }
+                    .one{
+                        top: 50%;
+                        left:4%;
+                        position: absolute;
+                    }
+                    .two{
+                        float: right;
+                        top: 50%;
+                        right:0%;
+                        position: absolute;
+                    }
+                    }
+                    @media screen and (max-width: 320px){
+                        .location iframe{
+                            width:280px;
+                            height: 400px;
+                            margin: 20px 50px 20px 10px;
+                            padding: 10px 10px 10px 10px;
+                            border-radius: 5px;
+                        }
+                        .one{
+                            top: 50%;
+                            left:2%;
+                            position: absolute;
+                        }
+                        .two{
+                            float: right;
+                            top: 50%;
+                            right:1%;
+                            position: absolute;
+                        }
+                        }
+                        @media screen and (max-width:280px){
+                            .location iframe{
+                                width:240px;
+                                height: 400px;
+                                margin: 20px 50px 20px 10px;
+                                padding: 10px 10px 10px 10px;
+                                border-radius: 5px;
+                            }
+                            .navbar{
+                                width:100%;
+                                background:#318097;
+                                overflow: auto;
+                                list-style: none;
+                            }
+                            .navbar a{
+                                text-decoration: underline 2px solid #318097;
+                                font-size: 1rem;
+                                float: left;
+                                margin: 0px 10px 10px 10px;
+                                color: white;
+                            }
+                            .navbar a:hover{
+                                font-size: 1.2rem;
+                                cursor: pointer;
+                            }
+                            .home h4{
+                                width:100%;
+                                text-shadow: 14px 13px 10px  black;
+                                font-family:'Alumni Sans', sans-serif;
+                                font-size:1.2rem;
+                                margin: 0px 0px 20px 0px;
+                                padding: 10px 0px 10px 0px;
+                                text-align:center;
+                                color: white;
+                                background-color: #318097;
+                            }
+                            .image img{
+                                width:100%;
+                                height: 500px;
+                            }
+                            .one{
+                                top: 50%;
+                                left:1%;
+                                position: absolute;
+                            }
+                            .two{
+                                float: right;
+                                top: 50%;
+                                right:1%;
+                                position: absolute;
+                            }
+                            .container img{
+                                width: 150px;
+                                height: 150px;
+                                border-radius: 21px;
+                            }
+                            .container{
+                                width:95%;
+                                text-align: center;
+                                display: grid;
+                                grid-gap: 1rem;
+                                grid-template-columns: 1fr;
+                                margin: 10px 10px 10px 10px;  
+                            }
+                            }
