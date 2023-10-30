@@ -1,0 +1,141 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    top: 0%;
+    font-family: 'Merriweather';
+}
+.bg{
+    background-color: #DDD0C8;
+    height: 550px;
+    width: 100%;
+}
+.name{
+ 
+    float: left;
+    margin:0px 20px;
+    padding: 0px 0px;
+    font-size: 25px;
+    color: #323232;
+
+}
+.navbar{
+
+    overflow: auto;
+    list-style: none;
+    text-align: center;
+}
+
+.navbar a{
+
+    text-decoration: none;
+    margin:5px 5px;
+    padding: 5px 5px;
+    font-size: 25px;
+    color: #323232;
+
+}
+.in{
+
+    float: right;
+    margin: 0px 30px;
+
+}
+.img1{
+    margin-top: 130px;
+}
+.img img{
+
+    height: 120px;
+    width: 150px;
+    margin: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 21px;
+
+}
+.font{
+    
+    margin: 150px 10px 10px 20px;
+    padding: 10px 10px 10px 10px;
+    
+}
+.font h5{
+
+    font-size: 25px;
+    margin: 10px 10px;
+    color: #323232;
+    
+}
+.font h4{
+
+    margin: 10px 10px;
+    font-size: 30px;
+    color: #323232;
+    
+}
+.font h1{
+    
+    margin: 10px 10px;
+    font-size: 40px;
+    color: #323232;
+    
+}
+.button1 button{
+    
+    height: 40px;
+    width: 150px;
+    margin: 10px 270px;
+    padding: 10px 10px;
+    border-radius: 21px;
+    color: white;
+    background-color: #323232;
+}
+#button2 button{
+    height: 40px;
+    width: 150px;
+    margin:25px 15px 20px 50px;
+    padding: 10px 10px;
+    border-radius: 21px;
+    color: white;
+    background-color: #323232;
+    
+}
+#button2 {
+    
+    display: none;
+    
+}
+/* /////////////////////////////////////////ABOUT US//////////////////////////////////////////////////// */
+
+.bg2{
+    background-color: #E3E2DF;
+    height: 520px;
+    width: 100%;
+    font-size: 20px;
+    margin: 0px 0px 0px 0px;
+}
+.about{
+    text-align: center;
+    color: #323232;
+}
+/* /////////////////////////////////////////CONTACT US//////////////////////////////////////////////////// */
+
+.bg3{
+    background-color: #323232;
+    height: 300px;
+    width: 100%;
+}
+.contact{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    margin: 0px 0px 25px 0px;
+}
+.detail{
+    text-align: center;
+}
+.detail h1{
+    margin: 15px 10px;
+    padding: 10px 10px;
+    text-align: center;
+    color: white;
+}
